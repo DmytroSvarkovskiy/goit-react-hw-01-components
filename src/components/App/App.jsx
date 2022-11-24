@@ -1,3 +1,5 @@
+import user from '..//..//source/user.json';
+import { Profile } from 'components/Profile/Profile';
 export const App = () => {
   return (
     <div
@@ -9,6 +11,8 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
       }}
-    ></div>
+    >
+      <Profile user={user} />
+    </div>
   );
 };
