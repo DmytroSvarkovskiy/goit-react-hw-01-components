@@ -27,6 +27,7 @@ export const Profile = ({
     </div>
   );
 };
+
 Profile.propTypes = {
   user: PropTypes.shape({
     username: PropTypes.string.isRequired,
