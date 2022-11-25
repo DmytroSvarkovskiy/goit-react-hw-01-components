@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
   return (
-    <li>
+    <>
       {isOnline ? (
         <span
           style={{
@@ -26,7 +26,7 @@ export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
 
       <img src={avatar} alt="User avatar" width="48" />
       <p>{name}</p>
-    </li>
+    </>
   );
 };
 
