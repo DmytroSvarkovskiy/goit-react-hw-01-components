@@ -6,7 +6,9 @@ export const StatisticsSection = () => {
       <h2>Upload stats</h2>
       <ul>
         {data.map(element => (
-          <StatisticsItem element={data} />
+          <li key={element.id}>
+            <StatisticsItem data={element} />
+          </li>
         ))}
       </ul>
     </section>
