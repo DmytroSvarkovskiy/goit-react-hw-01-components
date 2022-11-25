@@ -3,7 +3,7 @@ import data from '../../source/data.json';
 import friends from '../../source/friends.json';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
-import { FriendList } from 'components/FriendList/Friendlist';
+import { FriendList } from 'components/FriendList/FriendList';
 export const App = () => {
   return (
     <div
