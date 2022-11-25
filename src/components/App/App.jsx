@@ -1,11 +1,11 @@
 import user from '..//..//source/user.json';
+import data from '../../source/data.json';
 import { Profile } from 'components/Profile/Profile';
 import { StatisticsSection } from 'components/Statistics/StatisticsSection';
 export const App = () => {
   return (
     <div
       style={{
-        // height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         gap: '20px',
@@ -16,7 +16,7 @@ export const App = () => {
       }}
     >
       <Profile user={user} />
-      <StatisticsSection title="Upload stats" />
+      <StatisticsSection title="Upload stats" stats={data} />
     </div>
   );
 };
