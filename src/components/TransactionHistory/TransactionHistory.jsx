@@ -14,11 +14,6 @@ export const TransactionHistory = () => {
           <td>125</td>
           <td>USD</td>
         </tr>
-        <tr>
-          <td>Withdrawal</td>
-          <td>85</td>
-          <td>USD</td>
-        </tr>
       </tbody>
     </table>
   );
