@@ -16,7 +16,7 @@ export const App = () => {
       }}
     >
       <Profile user={user} />
-      <StatisticsSection />
+      <StatisticsSection title="Upload stats" />
     </div>
   );
 };
