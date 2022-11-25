@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const StatisticsSection = ({ title, stats }) => {
+export const Statistics = ({ title, stats }) => {
   return (
     <section>
       {title && <h2>{title}</h2>}
@@ -15,7 +15,7 @@ export const StatisticsSection = ({ title, stats }) => {
     </section>
   );
 };
-StatisticsSection.propTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
