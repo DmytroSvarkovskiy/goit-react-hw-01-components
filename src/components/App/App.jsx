@@ -1,5 +1,6 @@
 import user from '..//..//source/user.json';
 import { Profile } from 'components/Profile/Profile';
+import { StatisticsSection } from 'components/Statistics/StatisticsSection';
 export const App = () => {
   return (
     <div
@@ -13,6 +14,7 @@ export const App = () => {
       }}
     >
       <Profile user={user} />
+      <StatisticsSection />
     </div>
   );
 };
