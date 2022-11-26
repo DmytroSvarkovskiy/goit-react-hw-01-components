@@ -10,13 +10,13 @@ import { Box } from 'components/Box';
 export const App = () => {
   return (
     <Box
-      fontFamily="body"
+      // fontFamily="body"
       display="flex"
       flexDirection="column"
-      gap="20px"
+      // gap="20px"
       justifyContent="center"
       alignItems="center"
-      fontSize="fontSizes[5]"
+      // fontSize="fontSizes[5]"
       color="#010101"
     >
       <Profile user={user} />

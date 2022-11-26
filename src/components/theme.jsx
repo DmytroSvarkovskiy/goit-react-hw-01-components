@@ -1,12 +1,12 @@
 export const theme = {
   colors: {
     background: '#e6e9ec',
-    isonline: 'green',
-    isOffline: 'red',
-    psd: '#46b5de',
-    pdf: '#b366ff',
-    mp3: '#d14747',
-    docx: '#3da3c5',
+    // isonline: 'green',
+    // isOffline: 'red',
+    // psd: '#46b5de',
+    // pdf: '#b366ff',
+    // mp3: '#d14747',
+    // docx: '#3da3c5',
     thead: '#168d89',
     primary: '#000000',
     secondary: '#43434681',
