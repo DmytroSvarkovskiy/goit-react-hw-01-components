@@ -38,8 +38,14 @@ export const ProfInfo = styled.p`
   color: ${p => p.theme.colors.secondary};
 `;
 export const ProfLabel = styled.p`
-  font-size: ${p => p.theme.fontSizes[3]};
+  font-size: ${p => p.theme.fontSizes[2]};
   font-weight: ${p => p.theme.fontWeights.heading};
   margin: 0 0 15px;
   color: ${p => p.theme.colors.secondary};
+`;
+export const ProfQuantity = styled.p`
+  font-size: ${p => p.theme.fontSizes[2]};
+  font-weight: ${p => p.theme.fontWeights.extraBold};
+  color: ${p => p.theme.colors.primary};
+  margin: 0;
 `;

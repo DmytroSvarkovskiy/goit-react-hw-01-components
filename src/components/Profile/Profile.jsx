@@ -6,6 +6,8 @@ import {
   ProfUl,
   ProfName,
   ProfInfo,
+  ProfLabel,
+  ProfQuantity,
 } from './Profile.styled';
 export const Profile = ({
   user: { avatar, username, tag, location, stats },
@@ -29,16 +31,16 @@ export const Profile = ({
       </Box>
       <ProfUl>
         <ProfItem>
-          <span>Followers</span>
-          <span>{stats.followers}</span>
+          <ProfLabel>Followers</ProfLabel>
+          <ProfQuantity>{stats.followers}</ProfQuantity>
         </ProfItem>
         <ProfItem>
-          <span>Views</span>
-          <span>{stats.views}</span>
+          <ProfLabel>Views</ProfLabel>
+          <ProfQuantity>{stats.views}</ProfQuantity>
         </ProfItem>
         <ProfItem>
-          <span>Likes</span>
-          <span>{stats.likes}</span>
+          <ProfLabel>Likes</ProfLabel>
+          <ProfQuantity>{stats.likes}</ProfQuantity>
         </ProfItem>
       </ProfUl>
     </Box>

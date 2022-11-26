@@ -1,18 +1,21 @@
+import { Box } from 'components/Box';
 import PropTypes from 'prop-types';
+import { Children } from 'react';
+import { StatTitle, StatList, StatItem } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section>
-      {title && <h2>{title}</h2>}
-      <ul>
+    <Box as="section" bg="background" width="440px" borderRadius="5px">
+      {title && <StatTitle>{title}</StatTitle>}
+      <StatList>
         {stats.map(({ id, label, percentage }) => (
-          <li key={id}>
+          <StatItem key={id}>
             <span>{label}</span>
-            <span>{percentage}</span>
-          </li>
+            <span>{percentage}%</span>
+          </StatItem>
         ))}
-      </ul>
-    </section>
+      </StatList>
+    </Box>
   );
 };
 Statistics.propTypes = {
