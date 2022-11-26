@@ -1,6 +1,6 @@
 export const theme = {
   colors: {
-    background: '#e1e3e5',
+    background: '#e6e9ec',
     isonline: 'green',
     isOffline: 'red',
     psd: '#46b5de',
