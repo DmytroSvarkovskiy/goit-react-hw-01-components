@@ -20,7 +20,7 @@ export const App = () => {
       color="#010101"
     >
       <Profile user={user} />
-      <Statistics title="UPLOAD STATS" stats={data} />
+      <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </Box>

@@ -6,7 +6,7 @@ export const theme = {
     psd: '#46b5de',
     pdf: '#b366ff',
     mp3: '#d14747',
-    docx: '#20abd8',
+    docx: '#3da3c5',
     thead: '#81e8e5',
     primary: '#000000',
     secondary: '#43434681',

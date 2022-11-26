@@ -4,7 +4,13 @@ import { StatTitle, StatList, StatItem } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <Box as="section" bg="background" width="440px" borderRadius="5px">
+    <Box
+      as="section"
+      bg="background"
+      width="440px"
+      borderRadius="5px"
+      overflow="hidden"
+    >
       {title && <StatTitle>{title}</StatTitle>}
       <StatList>
         {stats.map(({ id, label, percentage }) => (
