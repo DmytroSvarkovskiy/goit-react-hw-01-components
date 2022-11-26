@@ -20,5 +20,5 @@ export const theme = {
     heading: 500,
     bold: 600,
   },
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
+  fontSizes: ['12px', '14px', '16px', '20px', '24px', '32px', '48px', '64px'],
 };
