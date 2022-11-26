@@ -7,6 +7,8 @@ export const ProfImg = styled.img`
 export const ProfUl = styled.ul`
   list-style: none;
   background-color: ${p => p.theme.colors.white};
+  display: flex;
+  //   gap: 15px;
   height: 80px;
   padding: 0px;
   margin: 0;
