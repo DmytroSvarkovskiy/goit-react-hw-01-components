@@ -2,8 +2,8 @@ import styled from 'styled-components';
 export const FrienrStatus = styled.span`
   border-radius: 50%;
   display: flex;
-  height: 12px;
-  width: 12px;
+  height: 15px;
+  width: 15px;
   background-color: ${prop => (prop.status ? 'green' : 'red')};
 `;
 export const FriendsLogo = styled.img`
