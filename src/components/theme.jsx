@@ -10,5 +10,6 @@ export const theme = {
     thead: '#81e8e5',
     primary: '#000000',
     secondary: '#d9d8df',
+    white: '#f2f2f2',
   },
 };
