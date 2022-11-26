@@ -1,9 +1,10 @@
+import { Box } from 'components/Box';
 import PropTypes from 'prop-types';
 export const Profile = ({
   user: { avatar, username, tag, location, stats },
 }) => {
   return (
-    <div>
+    <Box bg="background">
       <div>
         <img src={avatar} alt="User avatar" />
         <p>{username}</p>
@@ -24,7 +25,7 @@ export const Profile = ({
           <span>{stats.likes}</span>
         </li>
       </ul>
-    </div>
+    </Box>
   );
 };
 
