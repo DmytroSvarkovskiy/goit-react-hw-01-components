@@ -9,7 +9,7 @@ export const theme = {
     docx: '#20abd8',
     thead: '#81e8e5',
     primary: '#000000',
-    secondary: '#d9d8df',
+    secondary: '#43434681',
     white: '#f2f2f2',
   },
   fonts: {
@@ -17,8 +17,8 @@ export const theme = {
   },
   fontWeights: {
     body: 400,
-    heading: 700,
-    bold: 700,
+    heading: 500,
+    bold: 600,
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
 };

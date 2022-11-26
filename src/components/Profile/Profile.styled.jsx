@@ -8,7 +8,6 @@ export const ProfUl = styled.ul`
   list-style: none;
   background-color: ${p => p.theme.colors.white};
   display: flex;
-  //   gap: 15px;
   height: 80px;
   padding: 0px;
   margin: 0;
@@ -26,4 +25,21 @@ export const ProfItem = styled.li`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+export const ProfName = styled.p`
+  font-size: ${p => p.theme.fontSizes[4]};
+  font-weight: ${p => p.theme.fontWeights.heading};
+  margin: 0 0 15px;
+`;
+export const ProfInfo = styled.p`
+  font-size: ${p => p.theme.fontSizes[3]};
+  font-weight: ${p => p.theme.fontWeights.heading};
+  margin: 0 0 15px;
+  color: ${p => p.theme.colors.secondary};
+`;
+export const ProfLabel = styled.p`
+  font-size: ${p => p.theme.fontSizes[3]};
+  font-weight: ${p => p.theme.fontWeights.heading};
+  margin: 0 0 15px;
+  color: ${p => p.theme.colors.secondary};
 `;

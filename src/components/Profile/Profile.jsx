@@ -1,6 +1,12 @@
 import { Box } from 'components/Box';
 import PropTypes from 'prop-types';
-import { ProfImg, ProfItem, ProfUl } from './Profile.styled';
+import {
+  ProfImg,
+  ProfItem,
+  ProfUl,
+  ProfName,
+  ProfInfo,
+} from './Profile.styled';
 export const Profile = ({
   user: { avatar, username, tag, location, stats },
 }) => {
@@ -9,7 +15,7 @@ export const Profile = ({
       mt="30px"
       bg="background"
       display="block"
-      width="50vh"
+      width="35vh"
       pd="20px"
       borderRadius="8px"
       fontSize="40"
@@ -17,9 +23,9 @@ export const Profile = ({
     >
       <Box display="flex" flexDirection="column" alignItems="center">
         <ProfImg src={avatar} alt="User avatar" />
-        <p>{username}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <ProfName>{username}</ProfName>
+        <ProfInfo>@{tag}</ProfInfo>
+        <ProfInfo>{location}</ProfInfo>
       </Box>
       <ProfUl>
         <ProfItem>
