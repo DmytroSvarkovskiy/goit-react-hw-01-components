@@ -3,6 +3,8 @@ export const FriendListList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 0;
+  margin: 35px 0;
   list-style: none;
   font-weight: ${p => p.theme.fontWeights.bold};
   font-size: ${p => p.theme.fontSizes[3]};

@@ -10,6 +10,7 @@ export const Statistics = ({ title, stats }) => {
       width="440px"
       borderRadius="5px"
       overflow="hidden"
+      mt="35px"
     >
       {title && <StatTitle>{title}</StatTitle>}
       <StatList>

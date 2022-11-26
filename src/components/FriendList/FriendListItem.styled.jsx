@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-export const FrienrStatus = styled.span`
+export const FriendStatus = styled.span`
   border-radius: 50%;
   display: flex;
   height: 15px;
