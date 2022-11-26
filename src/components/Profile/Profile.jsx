@@ -1,6 +1,6 @@
 import { Box } from 'components/Box';
 import PropTypes from 'prop-types';
-import { ProfImg, ProfUl } from './Profile.styled';
+import { ProfImg, ProfItem, ProfUl } from './Profile.styled';
 export const Profile = ({
   user: { avatar, username, tag, location, stats },
 }) => {
@@ -22,18 +22,18 @@ export const Profile = ({
         <p>{location}</p>
       </Box>
       <ProfUl>
-        <li>
+        <ProfItem>
           <span>Followers</span>
           <span>{stats.followers}</span>
-        </li>
-        <li>
+        </ProfItem>
+        <ProfItem>
           <span>Views</span>
           <span>{stats.views}</span>
-        </li>
-        <li>
+        </ProfItem>
+        <ProfItem>
           <span>Likes</span>
           <span>{stats.likes}</span>
-        </li>
+        </ProfItem>
       </ProfUl>
     </Box>
   );

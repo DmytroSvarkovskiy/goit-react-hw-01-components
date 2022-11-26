@@ -8,10 +8,22 @@ export const ProfUl = styled.ul`
   list-style: none;
   background-color: ${p => p.theme.colors.white};
   display: flex;
-  gap: 15px;
-  height: 60px;
-  padding: 20px;
+  //   gap: 15px;
+  height: 80px;
+  padding: 0px;
   margin: 0;
   justify-content: space-around;
+  align-items: center;
+`;
+export const ProfItem = styled.li`
+  width: 100%;
+  height: 100%;
+
+  :not(:last-child) {
+    border-right: 2px solid ${p => p.theme.colors.background};
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 `;

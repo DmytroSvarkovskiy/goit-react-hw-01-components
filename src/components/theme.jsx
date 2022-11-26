@@ -12,4 +12,13 @@ export const theme = {
     secondary: '#d9d8df',
     white: '#f2f2f2',
   },
+  fonts: {
+    body: 'Roboto, sans-serif',
+  },
+  fontWeights: {
+    body: 400,
+    heading: 700,
+    bold: 700,
+  },
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
 };
