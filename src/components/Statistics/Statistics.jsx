@@ -1,6 +1,5 @@
 import { Box } from 'components/Box';
 import PropTypes from 'prop-types';
-import { Children } from 'react';
 import { StatTitle, StatList, StatItem } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
@@ -9,7 +8,7 @@ export const Statistics = ({ title, stats }) => {
       {title && <StatTitle>{title}</StatTitle>}
       <StatList>
         {stats.map(({ id, label, percentage }) => (
-          <StatItem key={id}>
+          <StatItem key={id} label={label}>
             <span>{label}</span>
             <span>{percentage}%</span>
           </StatItem>
