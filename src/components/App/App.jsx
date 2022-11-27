@@ -10,14 +10,14 @@ import { Box } from 'components/Box';
 export const App = () => {
   return (
     <Box
-      // fontFamily="body"
+      fontFamily="body"
       display="flex"
       flexDirection="column"
-      // gap="20px"
+      gridRowGap="30px"
       justifyContent="center"
       alignItems="center"
-      // fontSize="fontSizes[5]"
-      color="#010101"
+      fontSize={3}
+      color="primary"
     >
       <Profile user={user} />
       <Statistics title="Upload stats" stats={data} />
